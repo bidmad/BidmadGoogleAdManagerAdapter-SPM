@@ -16,7 +16,7 @@ let package = Package(
     .library(name: "BidmadGoogleAdManagerAdapter", targets: ["BidmadGoogleAdManagerAdapterTarget"]),
   ],
   dependencies: [
-    .package(url: "https://github.com/bidmad/BidmadSDK-SPM.git", .upToNextMinor(from: "7.2.0-dev.5")),
+    .package(url: "https://github.com/bidmad/BidmadSDK-SPM.git", .upToNextMinor(from: "7.2.0-dev.7")),
     .package(url: "https://github.com/googleads/swift-package-manager-google-mobile-ads.git", exact: "13.11.0"),
   ],
   targets: [
@@ -30,8 +30,8 @@ let package = Package(
     ),
     .binaryTarget(
       name: "BidmadGoogleAdManagerAdapter",
-      url: "https://github.com/bidmad/BidmadGoogleAdManagerAdapter-SPM/releases/download/7.2.0-dev.5+13.11.0/BidmadGoogleAdManagerAdapter.xcframework.zip",
-      checksum: "54bd5ba7be9f76c8742af900a2e022ebb9502b5e619c8472f3bda1e66d7d46fd"
+      url: "https://github.com/bidmad/BidmadGoogleAdManagerAdapter-SPM/releases/download/7.2.0-dev.7+13.11.0/BidmadGoogleAdManagerAdapter.xcframework.zip",
+      checksum: "beb17cfee3fabda660dce5b3f417dc11df54e0d6c37b1b7f287651b5a8d53865"
     ),
   ]
 )
